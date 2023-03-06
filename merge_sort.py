@@ -31,7 +31,11 @@ def merge_sort(arr):
 
 
 if __name__ == '__main__':
-    for i in range(1, 11):
-        a = [random.randint(0, 1000000) for _ in range(i*10000)]
+    LOW = 1
+    HIGH = 20
+    INPUT_RANGE = 1000000
+    INPUT_SIZE = 10000
+    for i in range(LOW, HIGH+1):
+        a = [random.randint(0, INPUT_RANGE) for _ in range(i*INPUT_SIZE)]
         merge_sort_time = timeit.timeit(lambda: merge_sort(a.copy()), number=1)
         print(f'{i}  {merge_sort_time}')
