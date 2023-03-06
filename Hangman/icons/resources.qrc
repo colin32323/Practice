@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>gameicon0.png</file>
+    <file>gameicon1.png</file>
+    <file>gameicon2.png</file>
+    <file>gameicon3.png</file>
+    <file>gameicon4.png</file>
+    <file>gameicon5.png</file>
+    <file>gameicon6.png</file>
+    <file>hangman.png</file>
+  </qresource>
+</RCC>
