@@ -8,7 +8,7 @@ def decimal_to_binary(value):
 
 
 while True:
-    num = int(input('-> '))
+    num = int(input('(0 to exit)\n-> '))
     if num == 0:
         break
     print(decimal_to_binary(num), end='\n\n')
